@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: de5c305c5084daa40a34b8b9074c4eb5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm_L
+    100002: arm_R_001
+    100004: Armature
+    100006: clavicle
+    100008: clavicle_001
+    100010: Eye_left
+    100012: foot_L
+    100014: foot_R_001
+    100016: hand_L
+    100018: hand_R_001
+    100020: head
+    100022: index1_L
+    100024: index1_R_001
+    100026: index2_L
+    100028: index2_R_001
+    100030: index3_L
+    100032: index3_R_001
+    100034: lowleg_L
+    100036: lowleg_R_001
+    100038: mid1_L
+    100040: mid1_L_001
+    100042: mid1_R_002
+    100044: mid1_R_003
+    100046: mid2_L
+    100048: mid2_L_001
+    100050: mid2_R_002
+    100052: mid2_R_003
+    100054: mid3_L
+    100056: mid3_L_001
+    100058: mid3_R_002
+    100060: mid3_R_003
+    100062: neck
+    100064: Pants_001
+    100066: pinkie1_L
+    100068: pinkie1_R_001
+    100070: pinkie2_L
+    100072: pinkie2_R_001
+    100074: pinkie3_L
+    100076: pinkie3_R_001
+    100078: ring1_L
+    100080: ring1_R_001
+    100082: ring2_L
+    100084: ring2_R_001
+    100086: ring3_L
+    100088: ring3_R_001
+    100090: root
+    100092: //RootNode
+    100094: spine_1
+    100096: spine_2
+    100098: toe_L
+    100100: toe_R_001
+    100102: uoleg_L
+    100104: uoleg_R_001
+    100106: upperarm_L
+    100108: upperarm_R_001
+    400000: arm_L
+    400002: arm_R_001
+    400004: Armature
+    400006: clavicle
+    400008: clavicle_001
+    400010: Eye_left
+    400012: foot_L
+    400014: foot_R_001
+    400016: hand_L
+    400018: hand_R_001
+    400020: head
+    400022: index1_L
+    400024: index1_R_001
+    400026: index2_L
+    400028: index2_R_001
+    400030: index3_L
+    400032: index3_R_001
+    400034: lowleg_L
+    400036: lowleg_R_001
+    400038: mid1_L
+    400040: mid1_L_001
+    400042: mid1_R_002
+    400044: mid1_R_003
+    400046: mid2_L
+    400048: mid2_L_001
+    400050: mid2_R_002
+    400052: mid2_R_003
+    400054: mid3_L
+    400056: mid3_L_001
+    400058: mid3_R_002
+    400060: mid3_R_003
+    400062: neck
+    400064: Pants_001
+    400066: pinkie1_L
+    400068: pinkie1_R_001
+    400070: pinkie2_L
+    400072: pinkie2_R_001
+    400074: pinkie3_L
+    400076: pinkie3_R_001
+    400078: ring1_L
+    400080: ring1_R_001
+    400082: ring2_L
+    400084: ring2_R_001
+    400086: ring3_L
+    400088: ring3_R_001
+    400090: root
+    400092: //RootNode
+    400094: spine_1
+    400096: spine_2
+    400098: toe_L
+    400100: toe_R_001
+    400102: uoleg_L
+    400104: uoleg_R_001
+    400106: upperarm_L
+    400108: upperarm_R_001
+    2100000: Material_009
+    2100002: Material_004
+    2100004: Material_003
+    2100006: Material
+    2100008: Material_002
+    2100010: Material_006
+    2100012: Material_001
+    4300000: Pants_001
+    4300002: Eye_left
+    7400000: Default Take
+    7400002: ArmatureAction
+    9500000: //RootNode
+    13700000: Eye_left
+    13700002: Pants_001
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 1
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 52
+      lastFrame: 81
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
