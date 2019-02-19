@@ -111,7 +111,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
-    - _CloudColor: {r: 0.745283, g: 0.629272, b: 0.629272, a: 0.8627451}
+    - _CloudColor: {r: 0.8301887, g: 0.6069776, b: 0.6069776, a: 0.8627451}
     - _Color: {r: 1, g: 1, b: 1, a: 0.422}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SkyColor: {r: 0, g: 0.036156174, b: 0.16911763, a: 1}
