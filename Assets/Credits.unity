@@ -7068,8 +7068,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 337067377}
-  m_LocalRotation: {x: -0.75923115, y: -0.066424154, z: -0.056426622, w: -0.6449589}
-  m_LocalPosition: {x: -86.872185, y: 147.15034, z: -72.43}
+  m_LocalRotation: {x: 0.6963416, y: 0.26091635, z: 0.189826, w: 0.6410906}
+  m_LocalPosition: {x: -105.6989, y: 147.38469, z: -61.93}
   m_LocalScale: {x: 0.5000003, y: 0.50000006, z: 0.50000024}
   m_Children: []
   m_Father: {fileID: 580191518}
@@ -7791,8 +7791,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407157164}
-  m_LocalRotation: {x: -0.75923115, y: -0.066424154, z: -0.056426622, w: -0.6449589}
-  m_LocalPosition: {x: -86.872185, y: 147.15034, z: -72.42}
+  m_LocalRotation: {x: 0.6963416, y: 0.26091635, z: 0.189826, w: 0.6410906}
+  m_LocalPosition: {x: -105.6989, y: 147.38467, z: -61.92}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.50000006}
   m_Children: []
   m_Father: {fileID: 580191518}
@@ -18890,7 +18890,7 @@ GameObject:
   - component: {fileID: 694454019}
   - component: {fileID: 694454018}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Team
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19649,6 +19649,94 @@ Transform:
   m_Father: {fileID: 1294711943}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -75, z: 0}
+--- !u!1 &816689333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 816689334}
+  - component: {fileID: 816689336}
+  - component: {fileID: 816689335}
+  m_Layer: 5
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &816689334
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 816689333}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1649789159}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -23, y: -27}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &816689335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 816689333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.59180313, g: 0.8773585, b: 0.60596615, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 18
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 'Music
+
+    All Credit Goes To
+
+    Derek & Brandon Fiechter - Youtube
+
+
+    Blades of Might
+
+    Shogun
+
+    Honor Samurai
+
+    Shuriken'
+--- !u!222 &816689336
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 816689333}
+  m_CullTransparentMesh: 0
 --- !u!1 &816892408
 GameObject:
   m_ObjectHideFlags: 0
@@ -19712,8 +19800,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 816892408}
-  m_LocalRotation: {x: -0.75923115, y: -0.066424154, z: -0.056426622, w: -0.6449589}
-  m_LocalPosition: {x: -86.872185, y: 147.15036, z: -72.420006}
+  m_LocalRotation: {x: 0.6963416, y: 0.26091635, z: 0.189826, w: 0.6410906}
+  m_LocalPosition: {x: -105.6989, y: 147.38467, z: -61.920006}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.50000006}
   m_Children: []
   m_Father: {fileID: 580191518}
@@ -19727,6 +19815,83 @@ Skybox:
   m_GameObject: {fileID: 816892408}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 0}
+--- !u!1 &824587676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 824587677}
+  - component: {fileID: 824587679}
+  - component: {fileID: 824587678}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &824587677
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824587676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1649789159}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &824587678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824587676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'VR - VRTK
+
+'
+--- !u!222 &824587679
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824587676}
+  m_CullTransparentMesh: 0
 --- !u!1 &828333665
 GameObject:
   m_ObjectHideFlags: 0
@@ -22018,8 +22183,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1258530080}
-  m_LocalRotation: {x: -0.037558433, y: -0, z: -0, w: -0.9992945}
-  m_LocalPosition: {x: 500, y: -218.59805, z: 179.73604}
+  m_LocalRotation: {x: 0.0009537861, y: 0.23282675, z: -0.05688205, w: 0.9708529}
+  m_LocalPosition: {x: 463, y: -198.28807, z: 170.9324}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 305307911}
@@ -34125,6 +34290,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1649789159}
+  - component: {fileID: 1649789160}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -34148,6 +34314,8 @@ RectTransform:
   - {fileID: 1913789805}
   - {fileID: 1775258982}
   - {fileID: 694454017}
+  - {fileID: 816689334}
+  - {fileID: 824587677}
   m_Father: {fileID: 608774986}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -34156,6 +34324,19 @@ RectTransform:
   m_AnchoredPosition: {x: 467, y: 22}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1649789160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1649789158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059d9369fe1d726469c89e9cd2de693d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creators: {fileID: 694454016}
+  music: {fileID: 816689333}
 --- !u!1 &1655837699
 GameObject:
   m_ObjectHideFlags: 0
@@ -44554,8 +44735,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1865308004}
-  m_LocalRotation: {x: 0.5718332, y: 0.050028943, z: 0.07136692, w: 0.8157271}
-  m_LocalPosition: {x: 48.05381, y: -42.175835, z: -105.04379}
+  m_LocalRotation: {x: 0.6963416, y: 0.26091635, z: 0.189826, w: 0.6410906}
+  m_LocalPosition: {x: -105.6989, y: 147.38469, z: -61.91999}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.50000006}
   m_Children: []
   m_Father: {fileID: 580191518}
